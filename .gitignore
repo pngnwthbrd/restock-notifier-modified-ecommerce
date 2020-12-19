@@ -2,8 +2,10 @@
 !.gitignore
 !.gitattributes
 !*/
+!admin/includes/modules/system/restock_notifier.php
 !includes/extra/modules/product_info_end/restock_notifier.php
 !lang/german/extra/restock_notifier.php
+!lang/german/extra/admin/restock_notifier.php
 !templates/tpl_modified_responsive/module/product_info/product_info_tabs_v1.html
 !templates/tpl_modified_responsive/javascript/extra/restock_notifier.js.php
 !templates/tpl_modified_responsive/javascript/jquery.simplelightbox.min.js

@@ -1,7 +1,9 @@
 <?php
 
 if (
-    STOCK_ALLOW_CHECKOUT == 'false'
+    defined('MODULE_SYSTEM_RESTOCK_NOTIFIER_STATUS')
+    && MODULE_SYSTEM_RESTOCK_NOTIFIER_STATUS == 'true'
+    && STOCK_ALLOW_CHECKOUT == 'false'
     && $product->data['products_quantity'] < 1
 ) {
     $info_smarty->assign('restock_notifier_info', RESTOCK_NOTIFIER_INFO);
