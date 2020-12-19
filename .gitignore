@@ -1,0 +1,9 @@
+*
+!.gitignore
+!includes/extra/modules/product_info_end/restock_notifier.php
+!templates/tpl_modified_responsive/module/product_info/product_info_tabs_v1.html
+!lang/german/extra/restock_notifier.php
+!templates/tpl_modified_responsive/javascript/extra/restock_notifier.php
+!templates/tpl_modified_responsive/javascript/jquery.simplelightbox.min.js
+!templates/tpl_modified_responsive/module/restock_notifier
+!callback/restock_notifier
