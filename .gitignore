@@ -1,5 +1,6 @@
 *
 !.gitignore
+!.gitattributes
 !*/
 !includes/extra/modules/product_info_end/restock_notifier.php
 !lang/german/extra/restock_notifier.php
