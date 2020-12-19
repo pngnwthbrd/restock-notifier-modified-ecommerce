@@ -4,7 +4,8 @@ chdir('../../');
 require_once('includes/application_top.php');
 
 if (
-    isset($_POST['restock_notifier']) && $_POST['restock_notifier'] == 'new_entry'
+    isset($_POST['restock_notifier'])
+    && $_POST['restock_notifier'] == 'new_entry'
 ) {
     $response = "";
     if (isset($_POST['privacy']) && $_POST['privacy'] == true) {
@@ -22,7 +23,7 @@ if (
     } else {
         $response = RESTOCK_NOTIFIER_PRIVACY_ERR;
     }
-    
+
     echo json_encode($response);
     die;
 }
