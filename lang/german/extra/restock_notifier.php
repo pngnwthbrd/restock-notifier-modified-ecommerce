@@ -11,3 +11,4 @@ define('RESTOCK_NOTIFIER_FAILURED', '<h4>Information</h4>Ihre E-Mail Adresse ist
 define('RESTOCK_NOTIFIER_POPUP_H', 'Verf&uuml;gbarkeits-Erinnerung');
 define('RESTOCK_NOTIFIER_PRIVACY_ERR', 'Bitte akzeptieren Sie unsere Privatsph&auml;re und Datenschutz Bestimmungen.');
 define('RESTOCK_NOTIFIER_EMAIL_ERR', 'Bitte geben Sie Ihre E-Mailadresse an.');
+define('RESTOCK_NOTIFIER_EMAIL_SUBJECT', 'Ihr gew&uuml;nschtes Produkt ist wieder verf&uuml;gbar');
